@@ -17,7 +17,7 @@ public class CSVreader {
     public Info[] entregarArreglo() {
 
         Info[] arreglo = new Info[18249];
-        String csvFile = "C:\\Users\\francheska\\Desktop\\Taller1.3\\src\\taller1complejidad\\palta.csv";
+        String csvFile = "C:\\Users\\francheska\\Documents\\NetBeansProjects\\Taller1CC\\src\\taller1cc\\palta.csv";
         BufferedReader br = null;
         String line = "";
         String cvsSplitBy = ",";
